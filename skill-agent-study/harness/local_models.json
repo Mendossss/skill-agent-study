@@ -1,0 +1,78 @@
+{
+  "models": [
+    {
+      "slug": "qwen3.5:4b",
+      "display_name": "qwen3.5:4b",
+      "description": "Explicit local-model harness configuration for this study; not native Qwen metadata.",
+      "default_reasoning_level": "none",
+      "supported_reasoning_levels": [
+        {
+          "effort": "none",
+          "description": "Request no thinking for this fixed study configuration."
+        }
+      ],
+      "shell_type": "unified_exec",
+      "visibility": "list",
+      "supported_in_api": true,
+      "priority": 0,
+      "include_skills_usage_instructions": true,
+      "include_plugin_usage_instructions": false,
+      "include_apps_usage_instructions": false,
+      "default_reasoning_summary": "none",
+      "support_verbosity": false,
+      "apply_patch_tool_type": null,
+      "web_search_tool_type": "text",
+      "truncation_policy": {
+        "mode": "tokens",
+        "limit": 10000
+      },
+      "context_window": 65536,
+      "effective_context_window_percent": 95,
+      "experimental_supported_tools": [],
+      "input_modalities": [
+        "text"
+      ],
+      "supports_search_tool": false,
+      "base_instructions": "You are a coding agent. Complete the user task in the current workspace using the tools supplied in this session. Inspect the relevant input files, implement the required files, execute the code, and check the resulting artifacts. Use the shell tool to read and write files. For multiline source files, use a quoted heredoc rather than nesting source code inside Python string literals. Use only tool names and argument schemas supplied in this session. Report only work actually performed in the current workspace.",
+      "node_repl_disabled": true,
+      "supports_reasoning_effort_updates": true
+    },
+    {
+      "slug": "qwen3.5:27b",
+      "display_name": "qwen3.5:27b",
+      "description": "Explicit local-model harness configuration for this study; not native Qwen metadata.",
+      "default_reasoning_level": "none",
+      "supported_reasoning_levels": [
+        {
+          "effort": "none",
+          "description": "Request no thinking for this fixed study configuration."
+        }
+      ],
+      "shell_type": "unified_exec",
+      "visibility": "list",
+      "supported_in_api": true,
+      "priority": 0,
+      "include_skills_usage_instructions": true,
+      "include_plugin_usage_instructions": false,
+      "include_apps_usage_instructions": false,
+      "default_reasoning_summary": "none",
+      "support_verbosity": false,
+      "apply_patch_tool_type": null,
+      "web_search_tool_type": "text",
+      "truncation_policy": {
+        "mode": "tokens",
+        "limit": 10000
+      },
+      "context_window": 65536,
+      "effective_context_window_percent": 95,
+      "experimental_supported_tools": [],
+      "input_modalities": [
+        "text"
+      ],
+      "supports_search_tool": false,
+      "base_instructions": "You are a coding agent. Complete the user task in the current workspace using the tools supplied in this session. Inspect the relevant input files, implement the required files, execute the code, and check the resulting artifacts. Use the shell tool to read and write files. For multiline source files, use a quoted heredoc rather than nesting source code inside Python string literals. Use only tool names and argument schemas supplied in this session. Report only work actually performed in the current workspace.",
+      "node_repl_disabled": true,
+      "supports_reasoning_effort_updates": true
+    }
+  ]
+}

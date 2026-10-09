@@ -1,0 +1,4 @@
+model,with_skill,functional_success,success,passed_checks,total_checks,elapsed_s,command_calls,failed_commands,timed_out,integration_ok,observed_skill_read,helper_use_observed,helper_used_on_all_api_inputs,batch_helper_method_calls
+qwen3.5:9b,True,True,True,10,10,39.033,21,1,False,True,True,True,True,9
+qwen3.5:27b,False,True,True,10,10,126.039,10,2,False,True,False,,,0
+qwen3.5:27b,True,True,True,10,10,178.625,15,1,False,True,True,True,True,18

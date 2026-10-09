@@ -1,0 +1,2 @@
+graphviz==0.20.3
+pytest==8.3.4
