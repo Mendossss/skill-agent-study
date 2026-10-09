@@ -1,0 +1,8 @@
+stage,attempts,outcomes
+large dialogue parsing,10,early setup/auth/verifier failures; later 27B baselines 34/35 and 30/35 under different revisions
+mini parsing v1,4,27B without 9/10; 27B with 10/10; both 4B trials timeout
+explicit parsing screen,1,4B with 2/10; remaining conditions not run under the predeclared gate
+graph audit v1,1,4B with functional 10/10; additional API-call-location gate fails; remaining conditions not run
+graph audit v2,4,27B without/with 10/10; 4B with 8/10; 4B without timeout 4/10
+graph audit v3,3,27B without/with 10/10; 4B with 9/10
+9B candidate batch,3,9B with 10/10; 27B without/with 10/10
